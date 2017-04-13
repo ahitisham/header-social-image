@@ -1,0 +1,34 @@
+<script type="text/javascript">
+	document.write("prime no:<br>");
+
+	prime();
+	function prime() {
+		// body...\
+		
+		var n=15
+		var c=0;
+
+		for(i=3;i<=n;i++){
+
+				c=0;
+				for( j=2;j<=i/2;j++)
+				{
+					if(i%j==0)
+					{
+						c++;
+						break;
+					}
+					
+					
+				}
+				if(c==0){
+				document.write(i+"<br>");
+				}
+
+
+
+		}
+
+
+	}
+</script>
